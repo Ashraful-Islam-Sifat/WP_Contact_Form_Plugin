@@ -1,0 +1,46 @@
+.wpcf_admin_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wpcf_admin_main_area > form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: self-start;
+}
+
+.wpcf_admin_sidebar{
+    background-color: aliceblue;
+    height: 90vh;
+    width: 20%;
+    padding: 20px;
+    box-shadow: 1px 2px 5px 9px rgba(69, 69, 69, 0.055);
+}
+
+.form-container,
+.form-contents,
+.wpcf_button {
+    border: 1px solid rgb(2, 92, 176);
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.form-container > label,
+.form-contents > label,
+.wpcf_button > label,
+.author-section > label {
+    margin-left: 20px;
+    font-size: 1.2rem;
+}
+
+.admin-shortcode{
+    background-color: rgba(0, 119, 255, 0.083);
+    font-size: 1.1rem;
+    padding: 10px;
+    border: 1px solid rgba(0, 119, 255, 0.475);
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+}
